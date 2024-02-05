@@ -1,0 +1,137 @@
+key_settings: Insert
+esp_mode: AlwaysOn
+esp_toogle: null
+esp_settings:
+  player.enemy:
+    type: Player
+    box_type: Box2D
+    box_color:
+      type: Static
+      options:
+        value: 4294967295
+    box_width: 1.0
+    skeleton: true
+    skeleton_color:
+      type: Static
+      options:
+        value: 4294967295
+    skeleton_width: 1.0
+    health_bar: Left
+    health_bar_width: 5.0
+    tracer_lines: None
+    tracer_lines_color:
+      type: Static
+      options:
+        value: 4294967295
+    tracer_lines_width: 1.0
+    info_name: true
+    info_name_color:
+      type: Static
+      options:
+        value: 4294967295
+    info_distance: false
+    info_distance_color:
+      type: Static
+      options:
+        value: 4294967295
+    near_players: false
+    near_players_distance: 20.0
+    info_weapon: true
+    info_weapon_color:
+      type: Static
+      options:
+        value: 4294967295
+    info_hp_text: false
+    info_hp_text_color:
+      type: Static
+      options:
+        value: 4294967295
+    info_flag_kit: true
+    info_flag_flashed: true
+    info_flags_color:
+      type: Static
+      options:
+        value: 4294967295
+  player.friendly:
+    type: Player
+    box_type: Box2D
+    box_color:
+      type: Static
+      options:
+        value: 4294967295
+    box_width: 1.0
+    skeleton: true
+    skeleton_color:
+      type: Static
+      options:
+        value: 4294967295
+    skeleton_width: 1.0
+    health_bar: Left
+    health_bar_width: 5.0
+    tracer_lines: None
+    tracer_lines_color:
+      type: Static
+      options:
+        value: 4294967295
+    tracer_lines_width: 1.0
+    info_name: true
+    info_name_color:
+      type: Static
+      options:
+        value: 4294967295
+    info_distance: false
+    info_distance_color:
+      type: Static
+      options:
+        value: 4294967295
+    near_players: false
+    near_players_distance: 20.0
+    info_weapon: true
+    info_weapon_color:
+      type: Static
+      options:
+        value: 4294967295
+    info_hp_text: false
+    info_hp_text_color:
+      type: Static
+      options:
+        value: 4294967295
+    info_flag_kit: true
+    info_flag_flashed: true
+    info_flags_color:
+      type: Static
+      options:
+        value: 4294967295
+esp_settings_enabled:
+  player.enemy: true
+  player.friendly: false
+bomb_timer: true
+spectators_list: true
+valthrun_watermark: true
+mouse_x_360: 16364
+trigger_bot_mode: Trigger
+key_trigger_bot: MouseX2
+trigger_bot_team_check: true
+trigger_bot_delay_min: 10
+trigger_bot_delay_max: 20
+trigger_bot_check_target_after_delay: false
+aim_assist_recoil: false
+hide_overlay_from_screen_capture: true
+render_debug_window: false
+metrics: true
+imgui: |+
+  [Window][Debug##Default]
+  Pos=60,60
+  Size=400,400
+  Collapsed=0
+
+  [Window][overlay]
+  Pos=0,0
+  Size=2560,1439
+  Collapsed=0
+
+  [Window][Valthrun]
+  Pos=669,371
+  Size=912,442
+  Collapsed=0
+
